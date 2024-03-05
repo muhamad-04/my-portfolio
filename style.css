@@ -1,22 +1,8 @@
-@font-face {
-    font-family: 'Roboto';
-    src: url('fonts/Roboto-Regular.ttf') format('truetype'),
-         url('fonts/Roboto-Regular.woff') format('woff');
-    
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url('fonts/Roboto-Bold.ttf') format('truetype'),
-         url('fonts/Roboto-Bold.woff') format('woff');
-    font-weight: bold;
-  }
-  
+
 body{
     margin: 0px;
     padding: 0px;
     width: 375px;
-    
-    border: 1px solid black;
 }
 .header{
     display: flex;
@@ -33,7 +19,7 @@ padding-top: 13px;
 padding-left: 21px;
 }
 time{
-    font-family:Roboto;
+    font-family: roboto;
     font-size: 14px;
     font-weight: 800;
 
@@ -57,5 +43,41 @@ time{
     
 }
 .header2-2{
+    padding-right: 8px;
+}
+.headline{
+    width: 375px;
+    height: 550px;
+    background-image: url('header-shapes\ mobile.png');
+   
+}
+.heading1{
+    width: 327px;
+    height: 150px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+h1{
+    font-family: Poppins;
+    font-weight: 700;
+    size: 40px;
+    line-height: 52px;
+    width: 327px;
+    height: 146px;
+}
+.para1{
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+padding-left: 20px;
+}
+.heading2{
+    padding-left: 20px;
+}
+h3{
+    color: #7F8CFF;
     
+}
+.logo2{
+    padding-left: 20px;
 }
